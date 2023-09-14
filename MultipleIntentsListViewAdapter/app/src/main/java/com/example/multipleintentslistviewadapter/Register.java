@@ -50,6 +50,7 @@ public class Register extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 //Log.d("Button Press","Back Button Pressed");
+                int_j_mainActivityIntent.putExtra("InfoPass","");
                 startActivity(int_j_mainActivityIntent);
             }
         });
